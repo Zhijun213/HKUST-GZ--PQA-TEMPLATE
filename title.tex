@@ -9,20 +9,20 @@
   \vfill
 \end{center}
 
-    
+\newcommand\ful[2][4cm]{\normalem{\underline{\makebox[#1][c]{#2}}}}
 
 \begin{table}[h]
 \large
 \renewcommand{\arraystretch}{1.5}
 \begin{tabular}{lp{10cm}}
-Student Name:            & \uline{\thesisauthor}  \\
-ID Number:               & \uline{\SID}  \\
+Student Name:            & \ful[10cm]{\thesisauthor} \\
+ID Number:               & \ful[10cm]{\SID}  \\
 Group Project:           & \groupproject\\
-Project Manager:         & \uline{\projectmanager} \\
-Project Supervisor:      & \uline{\projectsupervisor} \\
+Project Manager:         & \ful[10cm]{\projectmanager} \\
+Project Supervisor:      & \ful[10cm]{\projectsupervisor} \\
 Individual Project:      & \individualproject\\
-Thesis Supervisor:       & \uline{\thesissupervisor} \\
-Student's Thrust \& Hub: & \uline{\thrust}                                   
+Thesis Supervisor(s):    & \ful[10cm]{\thesissupervisor}\\
+Student's Thrust \& Hub: & \ful[10cm]{\thrust}                             
 \end{tabular}
 \end{table}
 
